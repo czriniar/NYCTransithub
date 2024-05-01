@@ -1,0 +1,8 @@
+{
+    "The NYU LeetCode Bootcamp's project, NYCTransitHub, is a comprehensive web application designed to streamline access to vital transit information for New York City's extensive public transportation network. With a primary objective of providing real-time updates, schedules, and transit data, NYCTransitHub harnesses the power of the MTA API to deliver accurate and up-to-the-minute information to its users. Through a clean and intuitive interface, users can easily access live updates on subway, bus, and rail services, ensuring they stay informed about any changes or disruptions to their routes.": "Le projet du NYU LeetCode Bootcamp, NYCTransitHub, est une application Web complète conçue pour rationaliser l'accès aux informations vitales sur les transports en commun pour le vaste réseau de transports publics de la ville de New York. Avec pour objectif principal de fournir des mises à jour, des horaires et des données de transport en temps réel, NYCTransitHub exploite la puissance de l'API MTA pour fournir des informations précises et à jour à ses utilisateurs. Grâce à une interface claire et intuitive, les utilisateurs peuvent facilement accéder à des mises à jour en direct sur les services de métro, de bus et de train, garantissant ainsi qu'ils restent informés de tout changement ou perturbation de leurs itinéraires.",
+    "Welcome To The New York City Transit Hub": "Bienvenue au centre de transport en commun de la ville de New York",
+    "Route Search": "Route Search",
+    "Live Transit Updates": "Live Transit Updates",
+    "Subway Alerts": "Subway Alerts",
+    "Languages": "Languages"
+}
