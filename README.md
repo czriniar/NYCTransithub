@@ -1,5 +1,6 @@
-# Getting Started with Create React App
-
+# NYCTRANSITHUB
+## A New York University LeetCode BootCamp Project
+Author: David Ren
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
