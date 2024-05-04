@@ -3,9 +3,11 @@
 Author: David Ren
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Desc
 
-In the project directory, you can run:
+The NYU LeetCode Bootcamp's project, NYCTransitHub, is a comprehensive web application designed to streamline access to vital transit information for New York City's extensive public transportation network. With a primary objective of providing real-time updates, schedules, and transit data, NYCTransitHub harnesses the power of the MTA API to deliver accurate and up-to-the-minute information to its users. Through a clean and intuitive interface, users can easily access live updates on subway, bus, and rail services, ensuring they stay informed about any changes or disruptions to their routes.
+
+Beyond simply displaying real-time transit updates, NYCTransitHub boasts an array of key features aimed at enhancing the user experience. From a route planner that empowers users to plan their journeys efficiently to service alerts that promptly notify users of any interruptions or delays, the platform is designed to cater to the diverse needs of NYC commuters. Additionally, the inclusion of user accounts ensures a personalized experience, allowing users to save preferences and access additional functionalities. Moreover, with multilingual support, NYCTransitHub aims to cater to the city's diverse population, ensuring accessibility for all residents and visitors alike.
 
 ### `npm start`
 
@@ -15,58 +17,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# NYCTransithub" 
+## Suggested Key Features:
+Live Transit Updates: Display real-time updates on subway, bus, and rail services. Implement WebSocket for live transit updates.
+Route Planner: Allow users to plan their routes with current transit options.
+Service Alerts: Implement notifications for service interruptions or delays.
+User Accounts: Enable users to save frequent routes and set alert preferences. Set up user authentication using Firebase. 
+Interactive Transit Maps: Provide interactive maps showing routes, stops, and service status.
+Favorite Routes: Allow users to save frequently used routes.
+Accessibility Information: Include details on transit accessibility.
+Multilingual Support: Offer the application in multiple languages.
