@@ -3,6 +3,8 @@
 Author: David Ren
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Website: https://nyc-transithub-3r33zgitb-czriniars-projects.vercel.app/
+
 ## Desc
 
 The NYU LeetCode Bootcamp's project, NYCTransitHub, is a comprehensive web application designed to streamline access to vital transit information for New York City's extensive public transportation network. With a primary objective of providing real-time updates, schedules, and transit data, NYCTransitHub harnesses the power of the MTA API to deliver accurate and up-to-the-minute information to its users. Through a clean and intuitive interface, users can easily access live updates on subway, bus, and rail services, ensuring they stay informed about any changes or disruptions to their routes.
