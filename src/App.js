@@ -11,7 +11,7 @@ import Landing from './landing';
 
 const MainMenu = () => {
   const { t } = useTranslation();
-  const [page, setPage] = useState('');
+  const [page, setPage] = useState('landing'); // Set the initial page to 'landing'
 
   const handleButtonClick = (pageName) => {
     setPage(pageName);
