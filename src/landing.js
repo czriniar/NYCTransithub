@@ -18,19 +18,13 @@ function landing() {
       </section>
       <section id="section-c">
         <div class="box-1">
-        <h2>David Ren</h2>
-          <h3>Front-end Developer</h3>
-          dr3587@nyu.edu
         </div>
         <div class="box-2">
-          <h2>Leisha Murthy</h2>
-          <h3>Back-end Developer</h3>
-          lm4684@nyu.edu
+          <h2>David Ren</h2>
+          <h3>Full-Stack Developer</h3>
+          dr3587@nyu.edu
         </div>
         <div class="box-3">
-          <h2>Gabriel Bronfman</h2>
-          <h3>Back-end Developer</h3>
-          gbb261@nyu.edu
         </div>
       </section>
       <iframe id='gmap_canvas'width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=6%20Metrotech+(NYC%20Transit%20Hub)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps devices</a></iframe>
