@@ -82,14 +82,9 @@ const MainMenu = () => {
         {page === 'subwayAlerts' && <SubwayAlerts />}
         {page === 'LoginForm' && <LoginForm />}
       </div>
-      <div>
         <img src={nyuLogo} alt="NYU Logo" style={{ position: 'absolute', top: 10, left: 110, width: '7.33%', height: 'auto' }} />
         <img src={nyuLogo} alt="NYU Logo" style={{ position: 'absolute', top: 10, right: 110, width: '7.33%', height: 'auto' }} />
-      </div>
-      <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <div style={{ position: 'absolute', bottom: '210px' }}>
-        
-      </div>
+      <div style={{ position: 'absolute', bottom: '10px' }}>
       
 
       </div>

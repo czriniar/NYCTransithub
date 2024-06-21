@@ -1,5 +1,5 @@
 import React from 'react'
-import './landing.css';
+import './styles/landing.css';
 function landing() {
   return (
     <div>
@@ -18,7 +18,7 @@ function landing() {
       </section>
       <section id="section-c">
         <div class="box-1">
-        </div>
+      </div>
         <div class="box-2">
           <h2>David Ren</h2>
           <h3>Full-Stack Developer</h3>
@@ -28,10 +28,7 @@ function landing() {
         </div>
       </section>
       <iframe id='gmap_canvas'width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=6%20Metrotech+(NYC%20Transit%20Hub)&amp;t=k&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps devices</a></iframe>
-      
     </div>
-    
   );
 }
-
 export default landing;
