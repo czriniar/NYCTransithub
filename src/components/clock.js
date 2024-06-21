@@ -7,7 +7,7 @@ function Clock() {
     setInterval(() => {
       const date = new Date();
       setClockState(date.toLocaleTimeString());
-    }, 1000);
+    }, 1);
   }, []);
 
   return <div style={{ fontSize: "25px", margin: "1px" }}>{clockState}</div>;
