@@ -5,7 +5,6 @@ import i18next from 'i18next';
 import Routes from './Routes'; // Import the Routes component we worked on earlier
 import TransitUpdates from './TransitUpdates'; // Import the TransitUpdates component
 import SubwayAlerts from './SubwayAlerts'; // Import the SubwayAlerts component
-import LoginForm from './components/LoginForm/LoginForm';
 import nyuLogo from './nyu_logo.png'; // Import the NYU logo
 import Landing from './landing';
 
@@ -70,17 +69,12 @@ const MainMenu = () => {
           <button style={buttonStyle} onClick={() => handleButtonClick('routeSearch')}>{t('Route Search')}</button>
           <button style={buttonStyle} onClick={() => handleButtonClick('liveTransitUpdates')}>{t('Live Transit Updates')}</button>
           <button style={buttonStyle} onClick={() => handleButtonClick('subwayAlerts')}>{t('Subway Alerts')}</button>
-          <button style={buttonStyle} onClick={() => handleButtonClick('LoginForm')}>{t('Login')}</button>
-          <button style={buttonStyle} onClick={() => i18next.changeLanguage('en')}>English</button>
-          <button style={buttonStyle} onClick={() => i18next.changeLanguage('es')}>Español</button>
-          <button style={buttonStyle} onClick={() => i18next.changeLanguage('fr')}>Français</button>
         </div>
 
         {page === 'landing' && <Landing />}
         {page === 'routeSearch' && <Routes />}
         {page === 'liveTransitUpdates' && <TransitUpdates />}
         {page === 'subwayAlerts' && <SubwayAlerts />}
-        {page === 'LoginForm' && <LoginForm />}
       </div>
         <img src={nyuLogo} alt="NYU Logo" style={{ position: 'absolute', top: 10, left: 110, width: '7.33%', height: 'auto' }} />
         <img src={nyuLogo} alt="NYU Logo" style={{ position: 'absolute', top: 10, right: 110, width: '7.33%', height: 'auto' }} />

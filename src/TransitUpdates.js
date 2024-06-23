@@ -51,7 +51,7 @@ const TransitUpdates = () => {
   return (
     <div style={{ display: 'flex' }}>
       <div style={{ marginRight: '50px' }}>
-        <h1>Common Stations</h1>
+        <h1>&nbsp; &nbsp;Common Stations</h1>
         {commonStations.map((station, index) => (
           <div key={index} style={stationStyle}>
             <p style={titleStyle}>Station ID: {station['Station ID']}</p>
